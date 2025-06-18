@@ -4,10 +4,10 @@ function myHeader(){
     window.addEventListener("scroll" , function(){
         if(window.scrollY > 0){
             header.classList.add("active");
-            lol.src = "pic/bulb2.png";
+            lol.src = "img/bulb2.png";
         }else{
             header.classList.remove("active");
-            lol.src = "pic/bulb.png";
+            lol.src = "img/bulb.png";
         }
         
     })
@@ -20,10 +20,10 @@ function myBars(){
     bars.onclick = function(){
         if(nav.style.right == "0%"){
             nav.style.right = "-50%";
-            bars.src = "pic/menu.png"
+            bars.src = "img/menu.png"
         }else{
             nav.style.right = "0%";
-            bars.src = "pic/x.png"
+            bars.src = "img/x.png"
         }
         nav.classList.toggle("new")
     }
@@ -58,10 +58,10 @@ function myVideo(){
     player.onclick = ()=>{
         if(videos.paused){
             videos.play();
-            player.src = "pic/pause.png"
+            player.src = "img/pause.png"
         }else{
             videos.pause();
-            player.src = "pic/play.png"
+            player.src = "img/play.png"
         }
     }
 }

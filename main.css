@@ -121,7 +121,7 @@ header.active #bar{
 }
 
 .big-bg{
-    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url(pic/bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url(img/bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -752,7 +752,7 @@ header.active #bar{
 
 .bg-show{
     position: relative;
-    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) , url(pic/h1_bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) , url(img/h1_bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
