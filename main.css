@@ -10,7 +10,7 @@
     scroll-behavior: smooth;
 }
 :root{
-    --main-color: #207178
+    --main-color: #207178;
 }
 html{
     scroll-behavior: smooth;
@@ -1054,7 +1054,7 @@ header.active #bar{
     width: 100%;
 }
 .bg-footer hr{
-    background: #f9f9f9;
+    background: var(--main-color);
     margin: 15px 0px;
     height: 1px;
     width: 100%;
